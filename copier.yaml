@@ -1,0 +1,39 @@
+# Template configuration
+_subdirectory: template
+_templates_suffix: .jinja
+
+# Project information
+project_name:
+  type: str
+  help: Your project name
+  default: my_library
+
+project_description:
+  type: str
+  help: A short description of the project
+  default: A Python Library
+
+author_name:
+  type: str
+  help: Your name
+  default: Frank Wiles
+
+author_email:
+  type: str
+  help: Your email
+  default: frank@revsys.com
+
+author_website:
+  type: str
+  help: Your website
+  default: https://www.frankwiles.com
+
+github_username:
+  type: str
+  help: Your GitHub username
+  default: frankwiles
+
+version:
+  type: str
+  help: Initial version
+  default: 0.1.0

@@ -1,0 +1,51 @@
+# {{ project_name }}
+
+{{ project_description }}
+
+## Requirements
+
+- Python 3.12+
+- [uv](https://github.com/astral-sh/uv) for dependency management
+
+## Installation
+
+First, make sure you have uv installed:
+
+```bash
+pip install uv
+```
+
+Then, to install the project and its dependencies:
+
+```bash
+uv venv venv
+uv pip install -e .
+```
+
+## Usage
+
+```bash
+{{ command_name }}
+```
+
+## Development
+
+1. Clone the repository
+2. Create a virtual environment and install dependencies:
+   ```bash
+   uv venv
+   uv pip install -e ".[dev]"
+   ```
+3. Install pre-commit hooks:
+   ```bash
+   pre-commit install
+   ```
+4. Run tests: `pytest`
+
+## License
+
+This project is licensed under the BSD License.
+
+## Author
+
+Written by [{{ author_name }}]({{ author_website}})
